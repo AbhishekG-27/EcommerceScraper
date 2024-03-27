@@ -2,7 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, insta;; dependencies:
+```bash
+npm i
+```
+
+then, run the development server:
 
 ```bash
 npm run dev
@@ -16,21 +21,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This application is amazon scrapper which scrapes some parts of amazon.in to show on the home page. You can also scrape a product by clicking on the search icon and entering the link of the product and pressing enter.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Home page:
 
-## Learn More
+![homepage](https://github.com/AbhishekG-27/EcommerceScraper/assets/91785087/20565e0d-45c5-4b33-bc17-96ba6f67c6bf)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![new_arrival](https://github.com/AbhishekG-27/EcommerceScraper/assets/91785087/75acae09-129d-4a4f-a668-3fe98266103f)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+![beauty](https://github.com/AbhishekG-27/EcommerceScraper/assets/91785087/c79578a0-dd7e-4702-b40e-ba453bf31fc5)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Product page:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![product](https://github.com/AbhishekG-27/EcommerceScraper/assets/91785087/32280f17-830f-4c18-ac7a-1a73bfd2da56)
